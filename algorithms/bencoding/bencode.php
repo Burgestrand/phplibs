@@ -3,7 +3,6 @@
      * A bencode decoder
      *
      * @package     PHPLibs
-     * @category    Algorithms
      * @subpackage  bencoding
      * @author      Kim Burgestrand <kim@burgestrand.se>
      * @license     http://creativecommons.org/licenses/by-sa/3.0/ CC Share Alike 3.0
