@@ -8,6 +8,25 @@
      */
     class Alternator extends ArrayIterator
     {
+        private static $instances = array();
+        
+        /**
+         * Note that this method returns the same alternator for the same arguments
+         *
+         * @return      Alternator
+         */
+        public static function factory(array $items)
+        {
+            $hash = hash('md5', serialize($items));
+            
+            if ( ! isset(self::$instances[$hash]))
+            {
+                self::$instances[$hash] = new Alternator($items);
+            }
+            
+            return self::$instances[$hash];
+        }
+        
         /**
          * Initializes the Alternator with values (and rewinds it)
          *
