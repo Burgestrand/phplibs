@@ -5,7 +5,7 @@
      * @package     PHPLibs
      * @category    Strings
      * @author      Kim Burgestrand <kim@burgestrand.se>
-     * @license     http://creativecommons.org/licenses/by-sa/3.0/ CC Share Alike 3.0
+     * @license     X11 License
      */
     
     /**
