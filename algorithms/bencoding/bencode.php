@@ -4,7 +4,7 @@
      *
      * @package     PHPLibs
      * @subpackage  bencoding
-     * @author      Kim Burgestrand <kim@burgestrand.se>
+     * @author      Kim Burgestrand
      * @license     X11 License
      */
 
